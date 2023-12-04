@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #343a40;
+            color: #ffc107;
+        }
+
+        .navbar {
+            background-color: #343a40;
+            border-bottom: 2px solid #ffc107;
+        }
+
+        .navbar-brand {
+            color: #ffc107;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #ffc107;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+
+        .bannner_wrapper {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 0;
+        }
+
+        .bannner_wrapper img {
+            width: 350px;
+            height: 350px;
+            margin-top: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .bannner_wrapper h1 {
+            font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 250px;
+        }
+
+        .bannner_wrapper span {
+            display: block;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .main-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: #343a40;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 90px;
+        }
+
+        .about_wrapper {
+            padding: 30px 0;
+            background-color: #343a40;
+             margin-top: 60px;
+        }
+
+        .about_wrapper h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .about_wrapper h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .about_wrapper p {
+            font-size: 16px;
+        }
+
+        .services_wrapper {
+            padding: 50px 0;
+            background-color: #343a40
+        }
+
+        .services_wrapper h2 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .card {
+            border: none;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .project_wrapper {
+            padding: 50px 0;
+            background-color: #343a40
+        }
+
+        .project_wrapper h2 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .project_wrapper h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contact_wrapper {
+            padding: 50px 0;
+            background-color: #343a40;
+            color: #ffffff;
+        }
+         
+        .contact-box h4 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .contact-box p {
+            font-size: 16px;
+        }
+
+        .contact-box a {
+            color: #ffc107;
+        }
+
+        .footer {
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 400px;
+            border-radius: 70%;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="bannner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <img src="./pic/photo.jpg" alt="My Image">
+                    <h1>I'm MD. Shadman Sakib Talukdar<br><span>B.Sc In Computer Science & Engineering</span><br>Independent University Bangladesh</h1>
+                    <div class="mt-4">
+                        <a class="main-btn" href="resume.pdf">Download My CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-15 mb-5 mb-lg-0">
+                    <h1>About Me</h1>
+                    <div class="row">
+                        <div class="col">
+                            <h2>Education</h2>
+                            <p>Independent University Bangladesh(IUB) - 2023</p>
+                            <p>Govt. Azizul Haque College Bogura - 2013</p>
+                            <p>Bogura Zilla School, Bogura - 2011</p>
+                        </div>
+                        <div class="col">
+                            <h2>Computer Languages</h2>
+                            <p>C++, Python, Javascript, HTML</p>
+                        </div>
+                        <div class="col">
+                            <h2>Experience</h2>
+                            <p>Assistant Procurement Manager- At ARC TRADING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <h2>MY SERVICES</h2>
+                <div class="col">
+                    <div class="card">
+                        <img src="./pic/web.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">WEB DEVELOPMENT</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./pic/logo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">LOGO DESIGN</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./pic/webd.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">WEB DESIGN</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="project_wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Project</h2>
+                    <h3>System Analysis and Design Project: <a href="database.pdf">Student Monitoring System</a></h3>
+                    <h3>Object-Oriented Project: <a href="/PostOffice.rar">Simulating Post Office</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center pb-25">
+                        <h2 class="title">Get In Touch</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="contact-box text-center mt-30">
+                    <h4><a href="#">Address</a></h4>
+                    <p>Mridha-Bari<br>Kuril<br>Dhaka, Bangladesh</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="contact-box text-center mt-30">
+                    <h4><a href="#">Phone</a></h4>
+                    <p>01751349958<br>01682673952</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="contact-box text-center mt-30">
+                    <h4><a href="#">Email</a></h4>
+                    <p>1810762@iub.edu.bd<br>rushansakib@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="contact-box text-center mt-30">
+                <h4><a href="#">Linkedin</a></h4>
+                <p><a href="https://www.linkedin.com/in/md-shadman-sakib-talukder-6a2925299/">Md.Shadman Sakib Talukdar</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Shadman Sakib Talukdar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+        .body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #5f7287;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .hero {
+            background: url("heroimage.jpg") no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #020112;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .about {
+            padding: 100px 0;
+            background-color: #f9f9f9;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .about-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .about-left {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .about-right {
+            flex: 1;
+        }
+
+        .about img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .services {
+            padding: 100px 0;
+            background-color: #fff;
+        }
+
+        .services h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .service {
+            text-align: center;
+            position: relative;
+        }
+
+        .service img {
+            width: 250px;
+            height: 250px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .service img:hover {
+            transform: scale(1.1);
+        }
+
+        .contact {
+            padding: 100px 0;
+            background-color: #f9f9f9;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .contact-icons {
+            text-align: left;
+        }
+
+        .contact-icons a {
+            margin: 0 10px;
+            color: #000; /* Set the color to black */
+            font-size: 24px;
+        }
+
+        .address {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer {
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .about h2 {
+                font-size: 30px;
+            }
+
+            .about p {
+                font-size: 16px;
+            }
+
+            .services h2 {
+                font-size: 30px;
+            }
+        }
